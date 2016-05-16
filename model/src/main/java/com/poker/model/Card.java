@@ -12,6 +12,14 @@ public class Card {
     private Suit suit;
     private Rank rank;
 
+    public Suit getSuit() {
+        return suit;
+    }
+
+    public Rank getRank() {
+        return rank;
+    }
+
     public Card () {
     }
 
